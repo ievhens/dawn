@@ -1,5 +1,9 @@
 <p class="p" style="margin: 2em">this is from template</p>
+{% for product in collections['all'].products %}
+  {{- product.title | link_to: product.url }}
+{% endfor %}
 
+   
 <script>
   let el = document.querySelector(".p");
   el.onclick = () => {
