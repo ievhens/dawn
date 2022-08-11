@@ -1,11 +1,7 @@
 <p class="p" style="margin: 2em">this is from template</p>
-{% for product in collections['all'].products %}
-  {{ product.title | link_to: product.url }}<br>
-  <img src="{{ product.featured_image }}" style="width: 100px">
-  <script>
-    console.log('art', {{ product | json }});
-  </script>
-{% endfor %}
+{{ collections }}
+
+https://cdn.shopify.com/s/files/1/0657/3870/3104/products/SamsungGalaxyS21FE6_128GBgraphite.jpg?v=1660134083
 
    
 <script>
