@@ -297,7 +297,7 @@ body,
 /*          url("../assets/background_body_stamp.png") 624px 1103px no-repeat,*/
 /*          url("../assets/background_body.jpg") repeat;*/
 /*}*/
-body{
+body.gradient{
   background-color:red;
 }
 .background-secondary {
