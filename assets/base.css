@@ -290,6 +290,7 @@ html.no-js .no-js-hidden {
 /*}*/
 
 body,
+.js,
 .gradient{
   background:
           url("../assets/background_body_stamp.png") -466px 248px no-repeat,
