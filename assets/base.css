@@ -298,7 +298,12 @@ body,
 /*          url("../assets/background_body.jpg") repeat;*/
 /*}*/
 body.gradient{
-  background-color:red;
+  url("{{ 'background_body_stamp.png' | asset_img_url }}") -466px 248px no-repeat,
+         url("{{ 'background_body_stamp.png' | asset_img_url }}") 624px 1103px no-repeat,
+         url("{{ 'background_body.jpg' | asset_img_url }}") repeat;
+
+ 
+  
 }
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
