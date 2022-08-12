@@ -6,12 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "slideshow": {
-      "type": "slideshow"
     }
   },
   "order": [
-    "main", "slideshow"
+    "main"
   ]
 }
