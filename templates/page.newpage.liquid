@@ -1,0 +1,14 @@
+<p class="p" style="margin: 2em">this is from template</p>
+<p>{{page_description}}</p>
+   
+<script>
+  let el = document.querySelector(".p");
+  el.onclick = () => {
+    if(el.style.backgroundColor == "red"){
+      el.style.backgroundColor = ""
+    }
+    else{
+      el.style.backgroundColor = "red"  
+    }
+  }
+</script>
